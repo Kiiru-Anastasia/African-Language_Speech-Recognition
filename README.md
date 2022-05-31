@@ -1,6 +1,6 @@
 # African Language Speech Recognition
 ## Speech-to-Text with Deep Learning
-****
+
 ### Business Scenario
 ****
 The World Food Program wants to deploy an intelligent form that collects nutritional information of food bought and sold at markets in two different countries in Africa - Ethiopi and Kenya.
@@ -14,9 +14,9 @@ The intelligent systems in the app are expected to live transcribe the speech-to
 * Input features(X): audio clips of spoken words
 * Target labels(y): a text transcript of what was spoken
 
-###Project Outcomes
+### Project Outcomes
 ****
-####Skills:
+#### Skills:
 * Working with audio and text files
 * Familiarity with deep learning architecture
 * Model management(building ML catalog containing models, feature labels, and training model version)
@@ -25,7 +25,7 @@ The intelligent systems in the app are expected to live transcribe the speech-to
 * Choosing appropriate architecture, loss function and regularisers, hyperparameter tuning, and choosing suitable evaluation metrics
 * MLOps with DVC, CML, and MLflow
 
-####Knowledge:
+#### Knowledge:
 * Audio and text processing
 * Deep learning methods (TensorFlow, Keras, Pytorch)
 * Hyperparameter tuning
@@ -45,20 +45,27 @@ The intelligent systems in the app are expected to live transcribe the speech-to
 ### Project Structure
 ****
 The structure and brief explanation for the repository.
+
 **data:**
 * datasets
+
 **models:**
 * trained DL models
+
 **mlruns:**
 * model artifacts
+
 **tests:**
 * unittests
+
 **notebooks:**
 * jupyter notebook files
+
 **scripts:**
 * helper functions
+
 **root folder**
 Any other aditional files
 
-###Installation guide
+### Installation guide
 ****
