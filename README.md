@@ -46,6 +46,9 @@ The intelligent systems in the app are expected to live transcribe the speech-to
 ****
 The structure and brief explanation for the repository.
 
+**.github/workflows:**
+* contains workflows to ensure CI/CD
+
 **data:**
 * datasets
 
