@@ -46,29 +46,35 @@ The intelligent systems in the app are expected to live transcribe the speech-to
 ****
 The structure and brief explanation for the repository.
 
+**.dvc:**
+* contains data versioning setup and version storage
+
 **.github/workflows:**
 * contains workflows to ensure CI/CD
 
-**data:**
-* datasets
+**mlruns/0:**
+* model artifacts
 
 **models:**
 * trained DL models
 
-**mlruns:**
-* model artifacts
+**notebooks:**
+jupyter notebook files
+* audio_overview.ipynb - an overview of a single audio file. Waveplots and playbacks
+* metadata_generator.ipynb - creates the dataframe with metadata for audio files. filename, transcription, filepath, sample rate and duration.
+
+**scripts:**
+helper functions
+* audio_overview.py - script file used in audio_overview notebook
 
 **tests:**
 * unittests
 
-**notebooks:**
-* jupyter notebook files
-
-**scripts:**
-* helper functions
-
 **root folder**
 Any other aditional files
+* .dvcignore
+* .gitignore
+* README.me
 
 ### Installation guide
 ****
